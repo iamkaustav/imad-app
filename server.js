@@ -17,7 +17,7 @@ app.get('/second', function (req, res) {
   res.sendFile(path.join(__dirname, 'KAUSTAV.jpg'));
 });
 
-app.get('/first', function (req, res) {
+app.get('/html', function (req, res) {
   res.sendFile(path.join(__dirname, 'first.html'));
 });
 
